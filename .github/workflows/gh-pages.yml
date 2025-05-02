@@ -1,3 +1,13 @@
++ permissions:
++   contents: write   # allow pushing commits
++   pages: write      # allow deploying to GitHub Pages
+
+ name: Build & Deploy to GitHub Pages
+ on:
+   push:
+     branches:
+       - main
+
 name: Build & Deploy to GitHub Pages
 on:
   push:
